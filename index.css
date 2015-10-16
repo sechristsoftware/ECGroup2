@@ -1,0 +1,187 @@
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-image:url("img/BG%20(4).png");
+    background-attachment: scroll;
+    -webkit-background-size: auto;
+    background-size: auto;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+}
+
+#box {
+    float: none;
+    height: 1682px;
+    margin-left: auto;
+    margin-top: 53px;
+    clear: none;
+    width: 73.707896%;
+    background-color: rgb(237, 235, 207);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-right: auto;
+}
+
+#text3 {
+    float: left;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 64.249845%;
+    margin-top: 486px;
+    clear: none;
+    min-height: 0px;
+}
+
+#text4 {
+    float: left;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 19.534147%;
+    margin-top: 0px;
+    clear: both;
+    min-height: 0px;
+}
+
+#box1 {
+    float: left;
+    height: auto;
+    margin-left: -0.04978644%;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+    background-image:-webkit-linear-gradient(270deg, rgb(16, 95, 124) 0%, white 100%);
+    background-image: linear-gradient(180deg, rgb(16, 95, 124) 0%, white 100%);
+    background-attachment: scroll;
+    -webkit-background-size: auto;
+    background-size: auto;
+    display: block;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+}
+
+#text {
+    float: left;
+    font-size: 40px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 300;
+    line-height: 100%;
+    margin-left: 4.382004%;
+    margin-top: 25px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(255, 255, 255);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 0px solid rgb(0, 0, 0);
+    font-style: normal;
+    font-family: Elephant;
+}
+
+#text1 {
+    float: left;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 7.643529%;
+    margin-top: 6px;
+    clear: both;
+    min-height: 0px;
+    color: rgb(255, 255, 255);
+    font-family: Elephant;
+}
+
+#box3 {
+    float: none;
+    height: 140px;
+    margin-left: auto;
+    margin-top: 1491.625px;
+    clear: none;
+    width: 87.737838%;
+    border: 5px solid rgb(0, 0, 0);
+    margin-right: auto;
+}
+
+#text2 {
+    float: left;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 36.794801%;
+    margin-top: 20.375px;
+    clear: none;
+    min-height: 0px;
+}
+
+#image {
+    float: left;
+    width: auto;
+    max-width: 20.124204%;
+    height: auto;
+    margin-left: 12.192438%;
+    margin-top: -65px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+}
+
+#box2 {
+    float: left;
+    height: 31px;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: both;
+    width: 99.950214%;
+}
+table {
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+#navBar {
+    z-index: 1;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#navBar a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+
+#navBar a:hover {
+    color: #000;
+    background: #B9B9B9;
+    text-decoration: none;
+}
+
+#navBar a.selected {
+    color: #000;
+    background: #B9B9B9;
+    text-decoration: none;
+}
