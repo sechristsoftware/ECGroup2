@@ -149,5 +149,9 @@ body {
     text-align: center;
 }
 #contact{
-  text-align: center;
+  text-align: left;
+}
+
+#in {
+    width: 400px;
 }

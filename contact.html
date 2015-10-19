@@ -22,7 +22,7 @@
                 <table id = "navBar">
                     <tr>
                         <td>
-                            <a class = "selected" href = "index.html">Home</a>
+                            <a href = "index.html">Home</a>
                         </td>
 
                         <td>
@@ -34,7 +34,7 @@
                         </td>
 
                         <td>
-                            <a href = "contact.html">Contact Us</a>
+                            <a class = "selected" href = "contact.html">Contact Us</a>
                         </td>
                     </tr>
                 </table>
@@ -43,17 +43,37 @@
             </div>
 
             <!--Content-->
-            <div id="contact">
-  <form action="mailto:csechrist@sechristinc.com">
-    <p>Name:</p>
-    <input type="text" name="Name" /><br />
-    <p>Email:</p>
-    <input type="text" name="Email" /><br />
-    <p>Message:</p>
-    <input type="text" name="Message" style="height:100px;" /><br />
-    <button type="submit">Submit</button>
-  </form>
-  </div>
+            <div id="divContent">
+                <table style = "font-size: 25px; width: 100%">
+                    <tr>
+                        <td style = "width: 50%">
+                            <form action="mailto:csechrist@sechristinc.com">
+                                <p>Name:</p>
+                                <input type="text" name="Name" id = "in"/><br />
+                                <p>Email:</p>
+                                <input type="text" name="Email" id = "in"/><br />
+                                <p>Message:</p>
+                                <input type="text" name="Message" style="height:100px;" id = "in"/><br />
+                                <button type="submit">Submit</button>
+                            </form>
+                        </td>
+
+                        <td  style = "width: 50%; padding: 5px">
+                            <h1 id ="title">Or</h1>
+                            <p>Contact Us At:</p>
+                            <ul style = "list-style-type: circle;">
+                                <li>Phone Number: 1-800-CASHLESS</li>
+                                <li>Fax Number: 1-492-323-2123</li>
+                                <li>E-mail: c4c@cashless.com</li>
+                                <li>Address:<br />2930 Somewhere Lane<br />Nowhere, NC 28392</li>
+                            </ul>
+                            <p> For More Information, <a href = "https://www.collegeboard.org">Click Here</a></p>
+                        </td>
+                    </tr>
+
+                </table>
+
+            </div>
             <p id = "copyright">&#169; 2015 Cashless for College</p>
 
 
